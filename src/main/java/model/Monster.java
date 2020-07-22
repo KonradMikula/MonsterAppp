@@ -11,11 +11,9 @@ import org.springframework.stereotype.Component;
 @Getter
 @EqualsAndHashCode
 @Component
-public class User {
-    private String email;
-    private String Nick;
-    private String password;
-    private String Login;
-    private Integer rowid;
+public class Monster {
+    private String name;
+    private String pictureURL;
+    private boolean sugar;
 
 }
